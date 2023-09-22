@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="база отдыха синий луг" />
+    <meta name="keywords" content="отдых, курорт, лыжи, дом для всей семьи" />
+    <title>СИНИЙ ЛУГ</title>
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <!--Шрифты-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--normalize css-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--Глобальные стили-->
+    <link rel="stylesheet" href="css/global.css" />
+    <!--Стили страницы-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Адаптив-->
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top flex --align-center --just-space">
+          <div class="logo flex">
+            <a href="#" class="logo__link">
+              <img src="svg/logo.svg" alt="Синий луг" class="logo__image" />
+            </a>
+            <!--здесь не понятно толи текст толи заголовок иногда seo специально такие тексты пишут для поиска-->
+            <p class="logo__title">твой лучший курорт</p>
+          </div>
+          <div class="header__top-phone">
+            <!--обратную связь сделал кнопкой, так как не понятно что по макету-->
+            <button class="phone__callback --btn-callback">
+              Обратная связь
+            </button>
+            <a href="tel: 8 800 770 30 30" class="phone__number --roboto-m-14"
+              >8 800 770 30 30</a
+            >
+          </div>
+        </div>
+        <div class="header__menu">
+          <nav class="menu flex --just-space">
+            <ul class="menu__list flex">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> Курорт </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> Чем заняться </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> Купить онлайн </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> Афиша мероприятий </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link"> Проживание </a>
+              </li>
+            </ul>
+            <ul class="biznes__list flex">
+              <li class="biznes__list-item">
+                <a href="#" class="biznes__list-link"> Программа лояльности</a>
+              </li>
+              <li class="biznes__list-item">
+                <a href="#" class="biznes__list-link">Для бизнеса</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__content">
+          <img src="img/beautiful-mountain-plateaus-peaks-with-sunlight-illuminating-during-sunset 1.jpg" alt="изображение" class="header__content-image">
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="place">
+        <div class="container">
+          <h1 class="place__title">
+            Отдыхай на курорте<br> Синий луг
+          </h1>
+          <div class="place__avocation">
+            <h4 class="avoction__title --h4">
+              Развлечения
+            </h4>
+            <!--Понимаю можно вместо списка и div использовать но я решил списком можно еще блок с картинкой и текстом в ссылку
+               обернуть но это нужно уточнять
+              -->
+            <ul class="avocation__list">
+              <li class="avocation__list-item">
+                <img src="img/image 5.jpg" alt="avocation__image" class="avocation__list-image">
+                <a href="#" class="avocation__list-link --roboto-m-14">Спортивные развлечения</a>
+              </li>
+              <li class="avocation__list-item">
+                <img src="img/image 11.jpg" alt="avocation__image" class="avocation__list-image">
+                <a href="#" class="avocation__list-link --roboto-m-14">Развлекательные мероприятия</a>
+              </li>
+              <li class="avocation__list-item">
+                <img src="img/image 9.jpg" alt="avocation__image" class="avocation__list-image">
+                <a href="#" class="avocation__list-link --roboto-m-14">Пешие туры</a>
+              </li>
+              <li class="avocation__list-item">
+                <img src="img/image 10.jpg" alt="avocation__image" class="avocation__list-image">
+                <a href="#" class="avocation__list-link --roboto-m-14">Спа</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="dwelling">
+        <div class="container">
+          <h4 class="dwelling__title --h4">Проживание на курорте</h4>
+          <div class="dwelling__wrapper">
+            <div class="dweling__apartments">
+                <div class="dweling__apartments-content">
+                  <h6 class="dweling__apartments-title --h6">Апартаменты люкс</h6>
+                  <ul class="dweling__apartments-list">
+                    <li class="apartaments__list-item"><a href="#" class="apartaments__list-link --roboto-m-14"></a></li>
+                    <li class="apartaments__list-item"><a href="#" class="apartaments__list-link"></a></li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </body>
+</html>

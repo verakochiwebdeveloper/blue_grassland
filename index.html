@@ -75,7 +75,7 @@
           </nav>
         </div>
         <div class="header__content">
-          <img src="img/beautiful-mountain-plateaus-peaks-with-sunlight-illuminating-during-sunset 1.jpg" alt="изображение" class="header__content-image">
+          <img src="img/mountain.jpg" alt="изображение" class="header__content-image">
         </div>
       </div>
     </header>
@@ -89,46 +89,98 @@
             <h4 class="avoction__title --h4">
               Развлечения
             </h4>
-            <!--Понимаю можно вместо списка и div использовать но я решил списком можно еще блок с картинкой и текстом в ссылку
-               обернуть но это нужно уточнять
-              -->
-            <ul class="avocation__list">
-              <li class="avocation__list-item">
-                <img src="img/image 5.jpg" alt="avocation__image" class="avocation__list-image">
+            <div class="avocation__list">
+              <div class="avocation__list-item">
+                <img src="img/snowboard.jpg" alt="avocation__image" class="avocation__list-image">
                 <a href="#" class="avocation__list-link --roboto-m-14">Спортивные развлечения</a>
-              </li>
-              <li class="avocation__list-item">
-                <img src="img/image 11.jpg" alt="avocation__image" class="avocation__list-image">
+              </div>
+              <div class="avocation__list-item">
+                <img src="img/entertainment.jpg" alt="avocation__image" class="avocation__list-image">
                 <a href="#" class="avocation__list-link --roboto-m-14">Развлекательные мероприятия</a>
-              </li>
-              <li class="avocation__list-item">
-                <img src="img/image 9.jpg" alt="avocation__image" class="avocation__list-image">
+              </div>
+              <div class="avocation__list-item">
+                <img src="img/walks.jpg" alt="avocation__image" class="avocation__list-image">
                 <a href="#" class="avocation__list-link --roboto-m-14">Пешие туры</a>
-              </li>
-              <li class="avocation__list-item">
-                <img src="img/image 10.jpg" alt="avocation__image" class="avocation__list-image">
+              </div>
+              <div class="avocation__list-item">
+                <img src="img/spa.jpg" alt="avocation__image" class="avocation__list-image">
                 <a href="#" class="avocation__list-link --roboto-m-14">Спа</a>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <section class="dwelling">
         <div class="container">
           <h4 class="dwelling__title --h4">Проживание на курорте</h4>
-          <div class="dwelling__wrapper">
+          <div class="dwelling__wrapper flex --just-space">
+            <!--здесь немнго не понято, оставлять картинку фоном или вствлять изображение а контен размещать поверх зато заказчик сможет картинку сам поменять -->
             <div class="dweling__apartments">
-                <div class="dweling__apartments-content">
+                <div class="dweling__apartments-content ">
                   <h6 class="dweling__apartments-title --h6">Апартаменты люкс</h6>
-                  <ul class="dweling__apartments-list">
-                    <li class="apartaments__list-item"><a href="#" class="apartaments__list-link --roboto-m-14"></a></li>
-                    <li class="apartaments__list-item"><a href="#" class="apartaments__list-link"></a></li>
-                  </ul>
+                  <div class="dweling__apartments-list">
+                    <a href="#" class="apartaments__list-link --roboto-m-14 --link-braun">Забронировать</a>
+                    <a href="#" class="apartaments__list-link --roboto-m-14 --link-border">посмотреть</a>
+                  </div>
                 </div>
+            </div>
+            <div class="dwelling__info">
+              <div class="dwelling__info-assortment">
+                <h4 class="assortiment__title --h4">
+                  Подберите отель<br>
+                  по выгодной цене
+                </h4>
+                <a href="#" class="assortiment__link --link-border">подобрать <svg width="27" height="8" viewBox="0 0 27 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M26.3536 4.35355C26.5488 4.15829 26.5488 3.84171 26.3536 3.64644L23.1716 0.464464C22.9763 0.269202 22.6597 0.269202 22.4645 0.464464C22.2692 0.659726 22.2692 0.976309 22.4645 1.17157L25.2929 4L22.4645 6.82843C22.2692 7.02369 22.2692 7.34027 22.4645 7.53553C22.6597 7.73079 22.9763 7.73079 23.1716 7.53553L26.3536 4.35355ZM4.37114e-08 4.5L26 4.5L26 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="#BF6024"/>
+                  </svg></a>
+              </div>
+              <div class="dwelling__info-bonus">
+                <div class="bonus__wrapper">
+                  <h4 class="bonus__title --h4">
+                    Программа лояльности
+                  </h4>
+                  <p class="bonus__text">
+                    Покупайте услуги курорта со скидкой до 20% и получите до 300 баллов за регистрацию!
+                  </p>
+                  <div class="bonus__list">
+                    <a href="#" class="bonus__list-link --roboto-m-14 --link-braun">участвовать</a>
+                    <a href="" class="bonus__list-link --roboto-m-14 --link-border">подробнее</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper flex --align-center --just-space">
+            <div class="footer__info">
+              <p class="footer__info-copyrayt">
+                © 2001-2020 Синий луг
+              </p>
+              <p class="footer__copyrayt-text">
+                Официальный сайт Курорта Синий Луг
+              </p>
+              <a href="#" class="footer__copyrayt-political">
+                Политика конфиденциальности
+              </a>
+            </div>
+            <div class="footer__contact">
+              <button class="phone__callback --btn-callback --color-black">
+                Обратная связь
+              </button>
+              <address class="footer__contact-address">
+                Россия,<br>
+                Москва, 113337, ул. Советская, д. 42
+              </address>
+            </div>
+            <div class="footer__inform">
+              Указанные на сайте цены не являются публичной офертой (ст.435 ГК РФ). Стоимость и возможность предоставления услуг необходимо уточнять в кассах
+            </div>
+          </div>
+        </div>
+      </footer>
 
     </main>
   </body>

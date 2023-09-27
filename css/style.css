@@ -3,7 +3,9 @@
 }
 
 .header__top,
-.header__content, .avocation__list{
+.header__content,
+.avocation__list,
+.dwelling__wrapper {
   border-bottom: 1px solid #7a7a7a;
 }
 
@@ -50,7 +52,8 @@
 }
 
 .menu__list-link:active,
-.biznes__list-link:active, .avocation__list-link:active {
+.biznes__list-link:active,
+.avocation__list-link:active {
   color: #bf6024;
 }
 
@@ -74,7 +77,7 @@
 }
 
 .avoction__title {
-    margin: 33px 0;
+  margin: 33px 0;
 }
 
 .avocation__list {
@@ -83,51 +86,138 @@
   flex-wrap: wrap;
   height: 100%;
   padding-bottom: 124px;
-  
 }
 
 .avocation__list-item {
   display: block;
-  width:50%; 
+  width: 50%;
   margin-top: 102px;
 }
 
-
-
 .avocation__list-image {
-    width: 555px;
-    height: 300px;
+  width: 555px;
+  height: 300px;
 }
 
 .avocation__list-link {
-    color: #141414;
-    display: block;
-    margin-top: 14px;
+  color: #141414;
+  display: block;
+  margin-top: 14px;
 }
 
 .avocation__list-link:hover {
-    text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .dwelling {
-    margin-top: 64px;
+  margin-top: 64px;
 }
 
 .dwelling__wrapper {
-    margin-top: 31px;
+  margin-top: 31px;
 }
 
 .dweling__apartments {
-    background-image: url("/img/image 3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 555px;
-    height: 600px;
+  background-image: url("/img/apartments.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 555px;
+  height: 600px;
 }
 
 .dweling__apartments-content {
-    padding: 28px 34px;
-    color: #FFFFFF;
+  padding: 28px 34px;
+  color: #ffffff;
 }
 
+.dweling__apartments-title {
+  display: block;
+  margin-top: 489px;
+}
 
+.dweling__apartments-list {
+  margin-top: 24px;
+}
+
+.apartaments__list-link,
+.assortiment__link,
+.bonus__list-link {
+  padding: 5px 13px;
+  margin-right: 18px;
+}
+
+.dwelling__info-assortment,
+.dwelling__info-bonus {
+  width: 540px;
+  padding: 60px 0px 88px 50px;
+  background: #eaedf2;
+  color: #141414;
+  margin-bottom: 30px;
+}
+
+.assortiment__title,
+.bonus__title {
+  color: #141414;
+  display: block;
+  margin-bottom: 28px;
+}
+
+.bonus__wrapper {
+  width: 320px;
+}
+
+.bonus__text {
+  line-height: 17.92px;
+  width: 262px;
+}
+
+.bonus__list {
+  margin-top: 23px;
+}
+
+.footer {
+  margin-top: 56px;
+  color: #424242;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 18.2px */
+  padding-bottom: 70px;
+}
+
+.footer__info-copyrayt {
+  font-weight: 600;
+}
+
+.footer__copyrayt-text {
+  display: block;
+  margin: 8px 0 14px;
+}
+
+.footer__copyrayt-political {
+  color: #424242;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 18.2px */
+}
+
+.footer__copyrayt-political:hover {
+  text-decoration-line: underline;
+  color: #bf6024;
+}
+
+.footer__copyrayt-political:active {
+  color: blue;
+  font-size: 20px;
+} 
+
+.footer__contact-address {
+  margin-top: 22px;
+}
+
+.footer__inform {
+  width: 340px;
+}

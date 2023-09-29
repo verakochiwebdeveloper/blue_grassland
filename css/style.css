@@ -26,9 +26,77 @@
   color: #bf6024;
 }
 
+/*-------- бургер меню------*/
+
+.burger__menu-btn {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  z-index: 5;
+  position: relative;
+  top: -20px;
+  cursor: pointer;
+  
+
+}
+
+.btn__line, .btn__line:after, .btn__line::before {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 4px;
+  background-color: #141414;
+  content: "";
+  left: 0;
+}
+
+.btn__line::before {
+  top: 10px;
+}
+
+.btn__line::after {
+  bottom: -10px;
+}
+
+.--active {
+  display: block;
+}
+
+.--active .btn__line::before {
+  transform: rotate(-45deg);
+}
+
+.burger__menu-list {
+  position: absolute;
+  z-index: 10;
+  top: 100px;
+  right: 150px;
+  border: 1px solid #141414;
+  padding: 10px;
+  background: #eaedf2;
+  
+}
+
+.burger__menu-list .biznes__list-link {
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 20px;
+  display: block;
+}
+
+
+.burger__menu-list  .menu__list-link {
+  color: #ffffff;
+  margin-top: 20px;
+  display: block;
+  font-size: 20px;
+}
+/*-------- / бургер меню------*/
+
 .header__menu {
   padding: 24px 0 36px;
 }
+
 
 .menu__list-item,
 .biznes__list-item {

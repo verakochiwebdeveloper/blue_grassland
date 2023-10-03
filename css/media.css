@@ -1,0 +1,44 @@
+/* Экстрамалые девайсы («телефоны», < 576px)*/
+@media (max-width: 575.98px) { 
+    .container {
+        width: 320px;
+    }
+
+    .logo__title {
+        display: none;
+    }
+
+    .header__top-phone {
+        display: none;
+    }
+
+    .header__content-image {
+        width: 320px;
+    }
+
+    .place__title {
+        font-size: 22px;
+    }
+
+    .--h4 {
+        font-size: 16px;
+    }
+
+    .dwelling__wrapper {
+        display: block;
+        text-align: center;
+    }
+};
+
+/* Малые девайсы («ландшафтные», < 768px) */
+@media (max-width: 767.98px) {  };
+
+/* Средние девайсы («таблетки», < 992px) */
+@media (max-width: 991.98px) {  };
+
+/* Большие девайсы (большие десктопы, < 1200px)*/
+ @media (max-width: 1199.98px) { 
+    .burger__menu-btn {
+        display: none;
+    }
+}
